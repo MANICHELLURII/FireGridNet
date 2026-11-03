@@ -1,0 +1,13 @@
+image_id,ground_truth,predicted,ground_truth_fire,ground_truth_smoke,fire_detected,smoke_detected,confidence,inference_ms
+dfire_AoF00005,none,none,False,False,False,False,0.0,12496.521
+dfire_AoF00025,none,none,False,False,False,False,0.0,88.033
+dfire_AoF00042,none,none,False,False,False,False,0.0,70.123
+dfire_AoF02119,fire_only,none,True,False,False,False,0.0,91.577
+dfire_AoF04522,fire_only,fire_only,True,False,True,False,0.690713,128.179
+dfire_AoF04563,fire_only,fire_only,True,False,True,False,0.657048,127.855
+dfire_AoF04606,smoke_only,none,False,True,False,False,0.0,104.244
+dfire_AoF05094,smoke_only,smoke_only,False,True,False,True,0.809637,122.655
+dfire_AoF05103,smoke_only,none,False,True,False,False,0.0,103.313
+dfire_AoF04276,fire_and_smoke,fire_and_smoke,True,True,True,True,0.868115,134.667
+dfire_AoF04367,fire_and_smoke,fire_and_smoke,True,True,True,True,0.797171,120.339
+dfire_AoF04464,fire_and_smoke,fire_and_smoke,True,True,True,True,0.810826,110.798

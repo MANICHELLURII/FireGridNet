@@ -1,0 +1,196 @@
+{
+  "evaluation": "dfire_image_level_sample",
+  "generated_at": "2026-10-29T13:33:03.211568+00:00",
+  "dataset": "baizhanquan/FireDetectionDataset-flame-forest-flameye-wildfire",
+  "split": "test",
+  "dataset_source_filter": "dfire",
+  "sample_size": 12,
+  "sample_per_category": 3,
+  "metric_scope": "Image-level fire/smoke flags; no bounding-box localization metric (mAP) is computed.",
+  "model_path": "C:\\Users\\manic\\Desktop\\major project\\FireGridNet\\firegridnet\\backend\\app\\ml_models\\yolov8n_fire.pt",
+  "class_names": {
+    "0": "smoke",
+    "1": "fire"
+  },
+  "overall_image_category_accuracy": 0.75,
+  "overall_correct": 9,
+  "overall_total": 12,
+  "fire_binary_metrics": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 1,
+    "tn": 6,
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1": 0.9090909090909091
+  },
+  "smoke_binary_metrics": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 2,
+    "tn": 6,
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1": 0.8
+  },
+  "confusion_matrix": {
+    "none": {
+      "none": 3,
+      "fire_only": 0,
+      "smoke_only": 0,
+      "fire_and_smoke": 0
+    },
+    "fire_only": {
+      "none": 1,
+      "fire_only": 2,
+      "smoke_only": 0,
+      "fire_and_smoke": 0
+    },
+    "smoke_only": {
+      "none": 2,
+      "fire_only": 0,
+      "smoke_only": 1,
+      "fire_and_smoke": 0
+    },
+    "fire_and_smoke": {
+      "none": 0,
+      "fire_only": 0,
+      "smoke_only": 0,
+      "fire_and_smoke": 3
+    }
+  },
+  "images": [
+    {
+      "image_id": "dfire_AoF00005",
+      "ground_truth": "none",
+      "predicted": "none",
+      "ground_truth_fire": false,
+      "ground_truth_smoke": false,
+      "fire_detected": false,
+      "smoke_detected": false,
+      "confidence": 0.0,
+      "inference_ms": 12496.521
+    },
+    {
+      "image_id": "dfire_AoF00025",
+      "ground_truth": "none",
+      "predicted": "none",
+      "ground_truth_fire": false,
+      "ground_truth_smoke": false,
+      "fire_detected": false,
+      "smoke_detected": false,
+      "confidence": 0.0,
+      "inference_ms": 88.033
+    },
+    {
+      "image_id": "dfire_AoF00042",
+      "ground_truth": "none",
+      "predicted": "none",
+      "ground_truth_fire": false,
+      "ground_truth_smoke": false,
+      "fire_detected": false,
+      "smoke_detected": false,
+      "confidence": 0.0,
+      "inference_ms": 70.123
+    },
+    {
+      "image_id": "dfire_AoF02119",
+      "ground_truth": "fire_only",
+      "predicted": "none",
+      "ground_truth_fire": true,
+      "ground_truth_smoke": false,
+      "fire_detected": false,
+      "smoke_detected": false,
+      "confidence": 0.0,
+      "inference_ms": 91.577
+    },
+    {
+      "image_id": "dfire_AoF04522",
+      "ground_truth": "fire_only",
+      "predicted": "fire_only",
+      "ground_truth_fire": true,
+      "ground_truth_smoke": false,
+      "fire_detected": true,
+      "smoke_detected": false,
+      "confidence": 0.690713,
+      "inference_ms": 128.179
+    },
+    {
+      "image_id": "dfire_AoF04563",
+      "ground_truth": "fire_only",
+      "predicted": "fire_only",
+      "ground_truth_fire": true,
+      "ground_truth_smoke": false,
+      "fire_detected": true,
+      "smoke_detected": false,
+      "confidence": 0.657048,
+      "inference_ms": 127.855
+    },
+    {
+      "image_id": "dfire_AoF04606",
+      "ground_truth": "smoke_only",
+      "predicted": "none",
+      "ground_truth_fire": false,
+      "ground_truth_smoke": true,
+      "fire_detected": false,
+      "smoke_detected": false,
+      "confidence": 0.0,
+      "inference_ms": 104.244
+    },
+    {
+      "image_id": "dfire_AoF05094",
+      "ground_truth": "smoke_only",
+      "predicted": "smoke_only",
+      "ground_truth_fire": false,
+      "ground_truth_smoke": true,
+      "fire_detected": false,
+      "smoke_detected": true,
+      "confidence": 0.809637,
+      "inference_ms": 122.655
+    },
+    {
+      "image_id": "dfire_AoF05103",
+      "ground_truth": "smoke_only",
+      "predicted": "none",
+      "ground_truth_fire": false,
+      "ground_truth_smoke": true,
+      "fire_detected": false,
+      "smoke_detected": false,
+      "confidence": 0.0,
+      "inference_ms": 103.313
+    },
+    {
+      "image_id": "dfire_AoF04276",
+      "ground_truth": "fire_and_smoke",
+      "predicted": "fire_and_smoke",
+      "ground_truth_fire": true,
+      "ground_truth_smoke": true,
+      "fire_detected": true,
+      "smoke_detected": true,
+      "confidence": 0.868115,
+      "inference_ms": 134.667
+    },
+    {
+      "image_id": "dfire_AoF04367",
+      "ground_truth": "fire_and_smoke",
+      "predicted": "fire_and_smoke",
+      "ground_truth_fire": true,
+      "ground_truth_smoke": true,
+      "fire_detected": true,
+      "smoke_detected": true,
+      "confidence": 0.797171,
+      "inference_ms": 120.339
+    },
+    {
+      "image_id": "dfire_AoF04464",
+      "ground_truth": "fire_and_smoke",
+      "predicted": "fire_and_smoke",
+      "ground_truth_fire": true,
+      "ground_truth_smoke": true,
+      "fire_detected": true,
+      "smoke_detected": true,
+      "confidence": 0.810826,
+      "inference_ms": 110.798
+    }
+  ]
+}

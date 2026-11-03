@@ -1,0 +1,116 @@
+{
+  "evaluation": "yolo_inference_execution_performance",
+  "generated_at": "2026-10-29T13:32:22.931078+00:00",
+  "scope": "run_detection() with image bytes preloaded; includes image decoding and model inference, excludes Supabase/network I/O",
+  "model_path": "C:\\Users\\manic\\Desktop\\major project\\FireGridNet\\firegridnet\\backend\\app\\ml_models\\yolov8n_fire.pt",
+  "model_class_names": {
+    "0": "smoke",
+    "1": "fire"
+  },
+  "device": "cpu",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "python_version": "3.10.11",
+  "image_count": 1,
+  "images": [
+    "sample_fire.png"
+  ],
+  "warmup_runs": 2,
+  "iterations_per_image": 10,
+  "measured_inferences": 10,
+  "cold_start_first_inference_ms": 15512.755,
+  "warm_latency_ms": {
+    "min": 125.66,
+    "mean": 157.242,
+    "median": 158.753,
+    "p95": 186.649,
+    "max": 186.649
+  },
+  "throughput_images_per_second": 6.36,
+  "cold_first_image_result": {
+    "confidence": 0.0,
+    "fire_detected": false,
+    "smoke_detected": false
+  },
+  "runs": [
+    {
+      "run": 1,
+      "image": "sample_fire.png",
+      "latency_ms": 164.649,
+      "confidence": 0.0,
+      "fire_detected": false,
+      "smoke_detected": false
+    },
+    {
+      "run": 2,
+      "image": "sample_fire.png",
+      "latency_ms": 155.159,
+      "confidence": 0.0,
+      "fire_detected": false,
+      "smoke_detected": false
+    },
+    {
+      "run": 3,
+      "image": "sample_fire.png",
+      "latency_ms": 125.66,
+      "confidence": 0.0,
+      "fire_detected": false,
+      "smoke_detected": false
+    },
+    {
+      "run": 4,
+      "image": "sample_fire.png",
+      "latency_ms": 137.8,
+      "confidence": 0.0,
+      "fire_detected": false,
+      "smoke_detected": false
+    },
+    {
+      "run": 5,
+      "image": "sample_fire.png",
+      "latency_ms": 162.347,
+      "confidence": 0.0,
+      "fire_detected": false,
+      "smoke_detected": false
+    },
+    {
+      "run": 6,
+      "image": "sample_fire.png",
+      "latency_ms": 136.574,
+      "confidence": 0.0,
+      "fire_detected": false,
+      "smoke_detected": false
+    },
+    {
+      "run": 7,
+      "image": "sample_fire.png",
+      "latency_ms": 181.445,
+      "confidence": 0.0,
+      "fire_detected": false,
+      "smoke_detected": false
+    },
+    {
+      "run": 8,
+      "image": "sample_fire.png",
+      "latency_ms": 186.649,
+      "confidence": 0.0,
+      "fire_detected": false,
+      "smoke_detected": false
+    },
+    {
+      "run": 9,
+      "image": "sample_fire.png",
+      "latency_ms": 154.664,
+      "confidence": 0.0,
+      "fire_detected": false,
+      "smoke_detected": false
+    },
+    {
+      "run": 10,
+      "image": "sample_fire.png",
+      "latency_ms": 167.471,
+      "confidence": 0.0,
+      "fire_detected": false,
+      "smoke_detected": false
+    }
+  ]
+}

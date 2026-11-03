@@ -1,0 +1,11 @@
+run,image,latency_ms,confidence,fire_detected,smoke_detected
+1,sample_fire.png,164.649,0.0,False,False
+2,sample_fire.png,155.159,0.0,False,False
+3,sample_fire.png,125.66,0.0,False,False
+4,sample_fire.png,137.8,0.0,False,False
+5,sample_fire.png,162.347,0.0,False,False
+6,sample_fire.png,136.574,0.0,False,False
+7,sample_fire.png,181.445,0.0,False,False
+8,sample_fire.png,186.649,0.0,False,False
+9,sample_fire.png,154.664,0.0,False,False
+10,sample_fire.png,167.471,0.0,False,False
